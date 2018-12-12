@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>PRUEBA PROGRAMACION VISUAL</title>
+<script>
+function resultado() {
+  var p1, p2, p3, p4, p5, p6,p7,p8,p9,p10,nota;
+
+  if (document.getElementById('p11').checked==true) {p1=1}
+  else {p1=0}
+  if (document.getElementById('p22').checked==true) {p2=1}
+  else {p2=0}
+  if (document.getElementById('p33').checked==true) {p3=1}
+  else {p3=0}
+  if (document.getElementById('p44').checked==true) {p4=1}
+  else {p4=0}
+  if(document.getElementById('p55').checked==true) {p5=1}
+  else {p5=0}
+  if(document.getElementById('p63').checked==true) {p6=1}
+  else {p6=0}
+  if(document.getElementById('p71').checked==true) {p7=1}
+  else {p7=0}
+  if(document.getElementById('p71').checked==true) {p8=1}
+  else {p8=0}
+  if(document.getElementById('p71').checked==true) {p9=1}
+  else {p9=0}
+  if(document.getElementById('p71').checked==true) {p10=1}
+  else {p10=0}
+  nota=p1+p2+p3+p4+p5+p6+p7+p7+p8+p9+p10;
+  alert(" Aciertos: " + nota);
+  location.reload();
+}
+</script>
+</head>
+<body>
+<h2>PRUEBA PROGRAMACION VISUAL</h2>
+<hr>
+<form style="font:normal 16px sans-serif">
+<p>Que es javaScript?.</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta1" id="p11"> Es un lenguaje de programación.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p12"> Es un aplicacion.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p13"> Ninguna de las anteriores..</p>
+
+
+<p>Que es atom ?.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p21"> Un tipo de lenguaje de programacion.</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta2" id="p22"> Un editor de código de fuente de código abierto para macOS, Linux, y Windows.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p23"> Ninguna de las anteriores.</p>
+
+
+<p>Caracteristicas de la programacion orientada a objetos?.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p31"> Abstraccion, jerarquia.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p32"> Rapidez, accesibilidad.</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta3" id="p33"> Polimorfismo, herencia, abstraccion y encapsulamiento.</p>
+
+
+<p>El programa en JavaScript debe ir encerrado entre las marcas?.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p41"> main().</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p42"> Ninguna.</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta4" id="p44"> script> ; /script>.</p>
+
+<p>Para ingresar datos por teclado utilizamos la palabra:</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta5" id="p51"> prompt.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p52"> scanf.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta5" id="p53"> Ninguna.</p>
+
+<p>Que es la clase Math dentro de javaScript? respuesta es C.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta6" id="p61"> Una clase que nos calcula operaciones.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta6" id="p62"> Ninguna de las anteriores.</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta6" id="p63"> Es un contenedor que tiene diversas constantes (como Math.E y Math.PI) y un conjunto de métodos matemáticos</p>
+
+<p>Para poder obtener el total de caracteres que consta un string usamos la palabra:</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta7" id="p71"> lenght</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta7" id="p72"> gettext.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta7" id="p73"> Ninguna.</p>
+
+<p>int, char, float, string y boolean son:</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta8" id="p81"> Tipos de datos.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta8" id="p82"> Funciones de acceso.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta8" id="p83"> Sentencias de control.</p>
+
+<p>Que es el Jdk:</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta9" id="p91"> Una libreria de java.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta9" id="p92"> Una clase de java.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta9" id="p93"> Ninguna.</p>
+
+<p>Caracteristicas de un algoritmo:</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta10" id="p101"> Ser preciso e indicar el orden de realización de cada paso.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta10" id="p102"> Tener saltos de pasos.</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta10" id="p103"> Ninguna de las anteriores.</p>
+<hr>
+<p><input type="button" value=" R E S U L T A D O " onclick="resultado()"/></p>
+</form>
+</body>
+</html>
